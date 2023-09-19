@@ -1,5 +1,5 @@
 import { combineReducers, createStore } from 'redux';
-import plusReducer from './reducers/plusReducer';
+import plusReducer from './modules/plusReducer';
 
 const reducer = combineReducers({
   plus: plusReducer,

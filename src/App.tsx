@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 
 const App = () => {
-  const 꺼내온값 = useSelector((state: any) => state.plus); // 'plus' 상태를 선택
+  const val = useSelector((state: any) => state.plus);
   const dispatch = useDispatch();
 
   return (
@@ -14,7 +14,7 @@ const App = () => {
       >
         +
       </button>
-      {꺼내온값}
+      {val}
     </>
   );
 };
