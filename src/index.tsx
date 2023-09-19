@@ -5,25 +5,13 @@ import App from './App';
 
 // redux
 import { Provider } from 'react-redux';
-import { combineReducers, createStore } from 'redux';
+import store from './redux/store';
 
-const data = {
-  hi: 100,
-};
+// const reducer = combineReducers({
+//   plus: plusReducer,
+// });
 
-function plusReducer(state: any = data.hi, action: any) {
-  if (action.type === '+') {
-    state++;
-    return state;
-  }
-  return state;
-}
-
-const reducer = combineReducers({
-  plus: plusReducer,
-});
-
-let store = createStore(reducer);
+// let store = createStore(reducer);
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
