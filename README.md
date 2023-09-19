@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# my-little-archive(new!)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+각종 SNS에서 북마크해둔 유용한 정보들을 한 곳에 모아보자!
 
-## Available Scripts
+## 동기
 
-In the project directory, you can run:
+SNS마다 혹은 SNS의 계정마다 북마크(or저장) 해둔 유용한 정보들이 많다.  
+이 정보들을 모아서 한 눈에 볼 수는 없을까? 더 쉽게 찾을 수는 없을까? 라는 물음에서 시작된 프로젝트이다.
 
-### `npm start`
+## 목표
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React를 사용해 아카이브 사이트를 완성한다.
+- 실제로 사용할 수 있도록 배포해본다.
+- 구현 중 막혔던 것을 중심으로 기록한다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 스택
 
-### `npm test`
+- React
+- Typescript
+- Tailwind
+- supabase
+- Redux
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 레이아웃
 
-### `npm run build`
+- 메뉴
+  - 폴더별로 정리
+  - 폴더 확인, 추가, 삭제, 수정
+- 게시물
+  - 게시물 확인, 추가, 삭제, 수정
+    - 게시물 제목, 내용, 출처
+    - hover시 출처 페이지 간략 노출, click시 출처 페이지로 이동
+  - 페이지네이션
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="80%" src="https://github.com/HYEMBURGERWORLD/my-little-archive/assets/123081489/6eb00dd8-a712-487e-a0f6-0236361b4470"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 공부 필요
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- react, ts 내용 복습...
+- supabase 사용법
+- [Tailwind 사용법](https://hyem-burger.tistory.com/44)
+- 페이지네이션 구현법
